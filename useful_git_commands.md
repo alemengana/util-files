@@ -15,3 +15,9 @@ git reset --hard origin/<branch_name>
 ```sh
 git reset --hard <branch_name>
 ```
+
+### 🔀 Set your file to "assume-unchanged" to avoid accidentally saving secrets. When you want git to ignore an edit for a while.
+
+```sh
+git update-index --assume-unchanged <dir/path/file>
+```
